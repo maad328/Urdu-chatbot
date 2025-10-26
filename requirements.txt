@@ -1,0 +1,12 @@
+# Streamlit app dependencies
+streamlit>=1.28.0
+
+# PyTorch for model
+torch>=2.0.0
+
+# Tokenization
+sentencepiece>=0.1.99
+
+# Basic dependencies
+numpy>=1.24.0
+

@@ -1,0 +1,85 @@
+# Python
+*.pt
+git 
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (can be large)
+# NOTE: We need our model files, so commented out
+# *.pt
+# *.pth
+# *.ckpt
+# models/
+# checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+data/
+datasets/
+
+# Logs
+*.log
+logs/
+logs.txt
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Tokenizer
+# NOTE: We need our tokenizer, so commented out
+# *.model
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Training scripts (not needed for deployment)
+backend/train/
+backend/main.py
+
