@@ -81,5 +81,7 @@ tmp/
 
 # Training scripts (not needed for deployment)
 backend/train/
+
+# FastAPI file (not needed for Streamlit)
 backend/main.py
 

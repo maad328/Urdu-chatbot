@@ -21,7 +21,7 @@ DEVICE = "cuda" if os.getenv("USE_GPU", "false").lower() == "true" else "cpu"
 
 # File paths - Updated to match your current structure
 TOKENIZER_PATH = str(BASE_DIR / "tokenizer" / "urdu_tokenizer.model")
-MODEL_PATH = str(BASE_DIR / "model" / "best_finetuned_epoch30_loss0.3141 (1).pt")
+MODEL_PATH = str(BASE_DIR / "model" / "best_finetuned_epoch30_loss0.3141.pt")
 
 # Generation settings
 DEFAULT_MAX_LENGTH = 100
